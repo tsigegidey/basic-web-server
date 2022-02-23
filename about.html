@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> About Me </title>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="css/portal.css" />
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/forms.css" />
+</head>
+<body>
+    <header>
+    <h1>Tsege Gebretsadek </h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://mchen162.github.io/it115-github-webpage-project/" target="_blank"> Land a software engineer Job </a>
+            <a href="https://tsigegidey.github.io/time-of-day/" target="_blank"> Time of a day </a>
+            <a href="https://tsigegidey.github.io/daily-grind/?day=2" target="_blank"> Daily Grind Coffee  </a>
+            <a href="https://tsigegidey.github.io/dom-play/" target="_blank"> DOM Play  </a>
+            <a href="https://tsigegidey.github.io/seasonal-styles/" target="_blank"> Seasonal Styles  </a>
+            <a href="https://web-service2.tsigegidey.repl.co" target="_blank"> At Her Majesty's Web Service  </a>
+            <a href="https://github.com/tsigegidey" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/tsige-gebretsadek-04a8431a7/" target="_blank">LinkedIn</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+    </header>
+
+<main class="wrapper">
+    <!--
+    <img class="desktop" src="images/desktop.jpg" alt="Photo of an adorable GSD puppy" />
+
+    <img class="tablet" src="images/tablet.jpg" alt="Photo of an adorable GSD puppy" />
+
+    <img class="phone" src="images/phone.png" alt="Photo of an adorable but large GSD in the lap of his best buddy" />
+    -->
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/TG1.jpg">
+            <source media="(min-width: 501px)" srcset="images/TG2.jpeg">
+            <img src="images/TG3.jpeg" alt="That's me!" />
+        </picture>
+    <h2 class="subheader">About Me</h2>
+
+    <p> Tsige Gebretsadek attended Jackson State University where she completed her first bachelor’s degree in biology, minor in chemistry. CurrentlyI, she is enrolled at Year Up program in the application development and testing track to become a software developer. Through her educational experience at year up, she has refined her skills of problem solving, critical thinking and teamwork. She has also gained experience using programming languages such as HTML, CSS and JavaScript. She is interested in a web development field and  seeking exciting opportunities related to the same. </p>
+
+
+    </footer>
+</main>
+
+<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+     
+ </body>
+</html>

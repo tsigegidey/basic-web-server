@@ -2,10 +2,14 @@
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4000
 
 app.get('/', (req, res) => {
-  res.send('Hello World')
+  res.sendFile(__dirname + "/index.html")
+})
+
+app.get('/about', (req, res) => {
+  res.sendFile(__dirname + "/about.html")
 })
 
 app.listen(port, () => {
